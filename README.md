@@ -1,20 +1,69 @@
 # Bank-management-System
-Bank Management System
+# 💼 Bank Management System (Java)
 
-The Bank Management System is a desktop-based application designed to manage basic banking operations with a secure login system. Developed using Java (JFrame) and Object-Oriented Programming (OOP) principles, it integrates with a MySQL database for storing and managing user account details and transactions.
+A simple, modular banking application built using **Java Swing (JFrame)** and connected to a **MySQL database**.  
+This project is still in development, but it's designed to simulate core banking operations with a focus on clean design, OOP principles, and future scalability.
 
-The application provides essential banking functions through a simple and intuitive GUI, making it easy for users to interact with the system. Its core features include:
+---
 
-User Authentication: Secure login and signup system for account creation and access.
+## 🚀 Project Status: In Progress
 
-Deposit Transactions: Allows users to deposit money into their account, updating the stored balance in the database.
+I'm currently developing this system as part of my journey to strengthen my backend development skills, particularly using **Java + SQL**. The app already supports several key operations and is being expanded to include more advanced features and better security practices.
 
-Withdrawal Transactions: Enables users to withdraw funds, with the database reflecting updated balances.
+---
 
-Account Management: Signup process automatically creates a new user account in the database.
+## ✨ Features Implemented So Far
 
-The system follows a modular design, separating the graphical interface from backend logic and database operations. By applying OOP concepts such as encapsulation and inheritance, the code remains organized, maintainable, and reusable.
+- 🔐 **User Authentication**
+  - New users can sign up
 
-The GUI is built using JFrame components such as text fields, buttons, and labels, offering a clean and user-friendly layout. The MySQL database is connected to the application to store account credentials, transaction records, and updated balances securely. All changes are immediately reflected in the database through SQL queries.
+- 💰 **Deposit**
+  - Transaction history is updated in real-time through SQL queries
 
-This project demonstrates skills in Java programming, GUI development, MySQL integration, and basic banking process automation. It serves as a functional prototype for small-scale banking operations and can be extended with additional features like transaction history, balance inquiry, or role-based access control for larger implementations.
+- 🧾 **Account Creation**
+  - New bank accounts are stored in the database with user details
+
+- 🖥️ **Desktop GUI**
+  - Built using **JFrame** (Java Swing), with labeled fields and buttons for interaction
+
+- 🧠 **Object-Oriented Design**
+  - Java classes are organized using OOP principles: encapsulation, modularity, and reusability
+
+- 🗄️ **Database Integration**
+  - Uses MySQL to store, retrieve, and update user and transaction data
+
+---
+
+
+## 📌 Why This Project
+
+This project is my attempt to apply core Java programming in a real-world use case.  
+It challenges me to think like a backend developer, handle persistent data storage, manage user input securely, and design interfaces that are easy to use.
+
+My main goals with this project:
+- Strengthen my understanding of **Java and JDBC**
+- Practice connecting front-end (GUI) with backend (SQL)
+- Build something functional that could evolve into a more complex system
+
+---
+
+## 🧠 Technologies Used
+
+- **Java (Swing/JFrame)**
+- **MySQL (JDBC Integration)**
+- **Object-Oriented Programming**
+
+---
+
+<img width="623" height="350" alt="Login" src="https://github.com/user-attachments/assets/53e73915-31cd-4844-8554-d0e07b2553e5" />
+<img width="959" height="506" alt="SignUp1" src="https://github.com/user-attachments/assets/9133b4d1-f03e-40c7-b390-cabb645c8593" />
+<img width="959" height="503" alt="SignUp2" src="https://github.com/user-attachments/assets/4bba3c92-4992-46cb-b7de-48213a0c7024" />
+<img width="959" height="508" alt="SignUp3" src="https://github.com/user-attachments/assets/d92e8b81-ee57-4d0b-b06c-89a91e6c4374" />
+<img width="958" height="333" alt="MySQL" src="https://github.com/user-attachments/assets/cac081dd-d64c-4a50-98ab-0c49282adca9" />
+<img width="620" height="252" alt="MYSQL1" src="https://github.com/user-attachments/assets/3722ddaf-3edf-4ed4-a49b-0a995610c8ed" />
+<img width="622" height="250" alt="MySQL2" src="https://github.com/user-attachments/assets/baa1a19f-dda7-43ee-a65c-6501272b6562" />
+<img width="623" height="256" alt="MySQL3" src="https://github.com/user-attachments/assets/bad4830c-cef6-4e14-8eeb-bb662ea6bdc9" />
+<img width="625" height="254" alt="MySQL4" src="https://github.com/user-attachments/assets/acd65b12-2b7b-47e5-b846-47f832a81fe4" />
+<img width="625" height="254" alt="MySQL4" src="https://github.com/user-attachments/assets/945fe407-e64b-4503-b091-55c873900c10" />
+
+
