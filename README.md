@@ -12,16 +12,30 @@ I'm currently developing this system as part of my journey to strengthen my back
 
 ---
 
-## ✨ Features Implemented So Far
+## ✨ Features Implemented 
 
-- 🔐 **User Authentication**
-  - New users can sign up
+- 🔐 Account Management & Security
+  - New User Signup: Securely create a new bank account with personal details.
 
-- 💰 **Deposit**
-  - Transaction history is updated in real-time through SQL queries
+  - Multiple Account Types: Support for both 'Savings' and 'Current' accounts during signup.
 
-- 🧾 **Account Creation**
-  - New bank accounts are stored in the database with user details
+  - User Authentication: Login system using a unique card number and a secure PIN.
+
+  - PIN Change: Users can update their account PIN at any time.
+
+- 💰 Transaction Operations
+  - Deposit: Add funds to an account, with the transaction history updated in real-time.
+
+  - Withdrawal: Withdraw a custom amount, with checks for sufficient balance.
+
+  - Fast Cash: Quickly withdraw predefined amounts (e.g., ₹500, ₹1000, ₹2000) for convenience.
+
+  - Fund Transfer: Transfer money securely to another bank account within the system.
+
+- 📊 Account Information & History
+  - Balance Enquiry: Check the current account balance instantly.
+
+  - Bank Statement: Generate and view a mini-statement of recent transactions.
 
 - 🖥️ **Desktop GUI**
   - Built using **JFrame** (Java Swing), with labeled fields and buttons for interaction
